@@ -1,86 +1,87 @@
+﻿<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=illegal%20Parking%20Detection&fontSize=32&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+</div>
+
+# illegal-Parking-Detection
+
+Illegal parking detection system using computer vision with dwell-time analysis for smart city surveillance applications.
+
 ---
 
-# Illegal Parking Detection System
+## Project Status: âœ… COMPLETE & READY FOR DEPLOYMENT
 
-This repository contains a computer vision-based system for detecting illegal parking in video streams. The system utilizes the YOLOv4 object detection model to identify cars within the video frames and checks whether they are parked in designated parking spots. If a violation is detected, it highlights the offending vehicle for further action.
+![GitHub stars](https://img.shields.io/github/stars/Abdul-Insighht/=social)
+![GitHub forks](https://img.shields.io/github/forks/Abdul-Insighht/=social)
 
-## Table of Contents
+---
 
-- [Introduction](#introduction)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
+## ðŸ› ï¸ Tech Stack
 
-## Introduction
-
-Illegal parking is a common problem in urban areas, leading to traffic congestion and safety hazards. Traditional methods of enforcement can be labor-intensive and inefficient. This project aims to automate the detection of illegal parking using computer vision techniques, providing a more efficient solution for urban management.
-
-The system employs the YOLOv4 (You Only Look Once version 4) object detection model, trained on the COCO dataset, to recognize vehicles within a video stream. By defining designated parking areas and comparing the detected vehicle locations against these predefined zones, the system identifies instances of illegal parking. Detected violations are highlighted in the output video for further review and enforcement.
-
-## Requirements
-
-To run the illegal parking detection system, you need the following dependencies:
-
-- Python 3.x
-- OpenCV
-- NumPy
-- imutils
-
-These dependencies can be installed using pip with the provided `requirements.txt` file.
-
-## Installation
-
-Follow these steps to set up the system:
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/prakharninja0927/illegal-parking-detection.git
+```
+Python, YOLO, OpenCV, NumPy, Ultralytics
 ```
 
-2. Install the required dependencies:
+---
 
+## ðŸš€ Getting Started
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Abdul-Insighht/illegal-Parking-Detection.git
+cd illegal-Parking-Detection
+```
+
+2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
-
-To use the system:
-
-1. Place the input video files in the `adminResources/input/` directory.
-2. Run the `illegal_parking_detection.py` script:
-
+3. **Run the project**
 ```bash
-python illegal_parking_detection.py
+python main.py
 ```
-
-3. The output video with detected violations will be saved in the `adminResources/output/` directory.
-
-## Configuration
-
-The behavior of the system can be customized through various configuration parameters:
-
-- `UPLOAD_INPUT_CAMERA`: Path to the input video file.
-- `UPLOAD_OUTPUT_CAMERA`: Directory to save the output video.
-- `default_confidence`: Minimum confidence threshold for detecting objects.
-- `default_threshold`: Threshold for non-maximum suppression.
-- Paths to YOLOv4 model weights and configuration file.
-- Path to the file containing parking coordinates (`parking-coordinate/test1.txt`).
-
-Adjust these parameters according to your specific requirements.
-
-## Contributing
-
-Contributions to the project are welcome! If you have any suggestions, feature requests, or bug reports, please create a pull request or open an issue on GitHub.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-Feel free to expand upon this README with additional sections, such as project architecture, examples, or performance metrics. This detailed README provides users with comprehensive information on the project's purpose, usage, and customization options.
+## â­ Quick Links
+
+â­ [Star this repo](https://github.com/Abdul-Insighht/illegal-Parking-Detection) â€¢ ðŸ› [Report Bug](https://github.com/Abdul-Insighht/illegal-Parking-Detection/issues) â€¢ ðŸ’¡ [Request Feature](https://github.com/Abdul-Insighht/illegal-Parking-Detection/issues)
+
+---
+
+Made with â¤ï¸ using Python & AI Technologies â€” Demonstration by **Abdul-Insighht** - Data Science Specialist | AI Agent & Agentic AI Developer
+
+---
+
+## ðŸ‘¤ Author
+
+<table>
+<tr>
+<td>
+
+**Hafiz Abdul Rehman**  
+[Abdul-Insighht](https://github.com/Abdul-Insighht) Â· he/him  
+**Data Science Specialist | AI Agent & Agentic AI Developer**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Abdul--Insighht-181717?style=flat-square&logo=github)](https://github.com/Abdul-Insighht)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/hafiz-abdul-rehman-9990ab329/)
+
+</td>
+</tr>
+</table>
+
+---
+
+## ðŸ“„ License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+</div>
+
+<div align="center">
+  <sub>â­ï¸ From <a href="https://github.com/Abdul-Insighht">Abdul-Insighht</a> â€” Passionate about AI, ML, and solving real-world problems</sub>
+</div>
